@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="text-blue-200 dark:text-orange-950 w-auto">
 
-      <dl id="home" className="bg-[url('/img/bgimg.png')] dark:bg-gradient-to-b dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen border-b dark:border-orange-950  ">
+      <dl id="home" className="bg-[url('/img/bgimg.png')] dark:bg-gradient-to-b border-b border-sm-D-blue-950 dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen  ">
 
         <Navbar className="border-b border-sky-200 dark:border-orange-950">
           <NavbarBrand>
@@ -95,7 +95,7 @@ export default function Home() {
             <p className="md:w-[80%]  pr-3 sm:w-[80%] lg:w-[70%] p-3 m-2 bg-gray-900 backdrop-blur-sm dark:bg-orange-950 dark:text-orange-300 bg-opacity-60 rounded-2xl  ">I am a software engineer student passionate about creating technological
               solutions that turn ideas into reality. Since the beginning of my training,
               I have been fascinated by how software can solve complex problems and optimize
-              processes in various fields <br />
+              processes in various fields <br /> <br />
               Come see my projects and my experiences then
               you will learn a little more about me
             </p>
@@ -107,17 +107,16 @@ export default function Home() {
           </a>
         </section>
       </dl>
-      <dl
-        id="myprojects"
-        className="h-screen bg-gradient-to-b from-[#000414] to-sm-D-blue-950 
-             dark:bg-orange-300"
+      <dl id="myprojects"
+        className="h-screen bg-gradient-to-b  from-[#000414] to-sm-D-blue-950 
+             "
       >
         <section className="w-full h-full">
           <Page />
         </section>
       </dl>
 
-      <section id="laboral" className=" bg-gradient-to-b from-sm-D-blue-950 to-[#000414] dark:bg-orange-300 h-screen pt-28 border-t border-white border-opacity-25 border-b border-b-sm-bunker-950">
+      <section id="laboral" className=" bg-gradient-to-b from-sm-D-blue-950 to-[#000414] dark:bg-orange-300 dark:bg-none h-screen pt-28 border-t border-white border-opacity-25 border-b border-b-sm-bunker-950">
         <h1 className="text-3xl font-bold text-center pb-9 md:pl-10 md:text-start ">LABORAL EXPERIENCES</h1>
         <div className="flex flex-col  space-y-3 w-[70%] md:w-[50%] mx-auto  bg-gray-950 bg-opacity-60 backdrop-blur rounded-2xl pl-24 p-8" >
           <div className="relative">
@@ -147,112 +146,185 @@ export default function Home() {
         </div>
 
       </section>
-      <section id="Academic" className=" bg-[url('/img/bgimg3.png')] bg-cover bg-center bg-no-repeat h-screen pt-28">
-        <h1 className="text-3xl font-bold text-center pb-9 md:pl-10 md:text-start ">ACADEMIC EXPERIENCES</h1>
-        <div className="flex flex-col  space-y-3 w-[80%] md:w-[50%] mx-auto  bg-gray-950 bg-opacity-60 backdrop-blur rounded-2xl pl-24 p-8" >
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+      <section id="Academic" className="bg-[url('/img/bgimg3.png')] dark:bg-gradient-to-b dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen pt-28">
+        <h1 className="text-3xl font-bold text-center pb-9 md:pl-10 md:text-start">ACADEMIC EXPERIENCES</h1>
+        <div className="flex flex-col space-y-4 w-[80%] md:w-[50%] mx-auto bg-gray-950 bg-opacity-60 backdrop-blur-lg rounded-2xl pl-24 p-8">
+          
+          <div className="relative group">
+            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
+            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
+            <div className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Start Electronics Technician</h3>
-              <p className="text-sm text-gray-600">August 2021</p>
+              <p className="text-sm text-gray-400">August 2021</p>
             </div>
           </div>
 
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+        
+          <div className="relative group">
+            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
+            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
+            <div className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Graduated</h3>
-              <p className="text-sm text-gray-600">2022</p>
+              <p className="text-sm text-gray-400">2022</p>
             </div>
           </div>
 
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+          <div className="relative group">
+            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
+            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
+            <div className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">English Course</h3>
-              <p className="text-sm text-gray-600">2022</p>
+              <p className="text-sm text-gray-400">2022</p>
             </div>
           </div>
-
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+          <div className="relative group">
+            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
+            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
+            <div className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Software Engineering Career</h3>
-              <p className="text-sm text-gray-600">2023</p>
+              <p className="text-sm text-gray-400">2023</p>
             </div>
           </div>
-
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+          <div className="relative group">
+            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
+            <div className="absolute left-0 top-0 w-3 h-3 bg-sm-D-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
+            <div className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Start Systems Technician</h3>
-              <p className="text-sm text-gray-600">2024</p>
+              <p className="text-sm text-gray-400">2024</p>
             </div>
           </div>
         </div>
-
       </section>
-      <section id="myCourses" className="bg-[url('/img/bgimg2.png')] bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center ">
-        <h1 className="text-3xl font-bold h-[20%] md:-mt-24 text-center md:pl-10 md:text-start ">MY COURSES</h1>
-        <dl className="grid md:grid-cols-2 gap-16 md:w-[60%] lg:w-[50%] w-[40%] text-center  mx-auto">
-          <p className="bg-sm-ebony-clay-600 bg-opacity-40 rounded-3xl flex items-center p-4 justify-center h-32">Labor systems Technician <br /> 2024 - ...</p>
-          <p className="bg-sm-ebony-clay-600 bg-opacity-40 rounded-3xl flex items-center p-4 justify-center h-32">Labor electronics Technician <br /> 2022 - 2023</p>
+
+      <section id="myCourses" className="bg-[url('/img/bgimg2.png')] dark:bg-gradient-to-b dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center">
+        <h1 className="text-3xl font-bold h-[20%] md:-mt-24 text-center md:pl-10 md:text-start">MY COURSES</h1>
+        <dl className="grid md:grid-cols-2 gap-16 md:w-[60%] lg:w-[50%] w-[40%] text-center mx-auto">
+          <p className="bg-sm-ebony-clay-600 bg-opacity-40 rounded-3xl flex items-center p-4 justify-center h-32 transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-2 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:shadow-lg hover:shadow-orange-500/50 hover:text-white">
+            Labor systems Technician <br /> 2024 - ...
+          </p>
+          <p className="bg-sm-ebony-clay-600 bg-opacity-40 rounded-3xl flex items-center p-4 justify-center h-32 transition-all duration-500 ease-in-out transform hover:scale-110 hover:-rotate-2 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:shadow-lg hover:shadow-orange-500/50 hover:text-white">
+            Labor electronics Technician <br /> 2022 - 2023
+          </p>
         </dl>
       </section>
+
       <section id="Hobbies" >
-        <section id="moreAboutMe" className="bg-sm-bunker-950 bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center">
+        <section id="moreAboutMe" className="bg-sm-bunker-950 dark:bg-gradient-to-b dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center">
           <h1 className="text-3xl font-bold h-[20%] md:-mt-24 text-center md:pl-10 md:text-start">MORE ABOUT ME</h1>
           <h1 className="text-xl ml-10 h-[20%] md:-mt-11 text-center md:pl-10 md:text-start">MY HOBBIES</h1>
           <dl className="grid grid-cols-2 md:grid-cols-4 gap-16 md:w-[90%] lg:w-[80%] w-[70%] text-center mx-auto md:-mt-11 justify-evenly relative">
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">5</button>
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">1</button>
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">2</button>
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">3</button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Taekwondo🥋
+            </button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Photography📸
+            </button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Climbing🧗🏽
+            </button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Drawing📒
+            </button>
           </dl>
 
           <h1 className="text-xl ml-10 h-[20%] text-center mt-11 md:pl-10 md:text-start">SKILLS</h1>
           <dl className="grid grid-cols-2 md:grid-cols-4 gap-16 md:w-[90%] lg:w-[80%] w-[70%] text-center mx-auto md:-mt-11 justify-evenly relative">
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">1</button>
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">1</button>
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">1</button>
-            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40">1</button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Responsibility
+            </button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Optimism
+            </button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Flexibility
+            </button>
+            <button className="bg-sm-bunker-900 p-3 pl-5 pr-5 rounded-3xl bg-opacity-40 transition-all duration-500 ease-out transform hover:scale-125 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 hover:text-white hover:shadow-lg hover:shadow-orange-500/50">
+              Self-motivation
+            </button>
           </dl>
         </section>
 
 
-        <section>
 
-          <section id="contact" className=" bg-gradient-to-b from-sm-bunker-950 to-sm-D-blue-950 text-white py-16 flex flex-col items-center">
 
-            <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-yellow-400 mb-6">
-              <img src="/img/your-photo.jpg" alt="Your Photo" className="w-full h-full object-cover" />
+      </section>
+
+      <dl>
+        <section id="contact" className="bg-gradient-to-b from-sm-bunker-950 to-sm-D-blue-950 dark:text-orange-950 dark:bg-orange-300 dark:bg-none  text-white  py-16 flex flex-col items-center">
+          <div className="relative mb-6">
+
+            <div className="w-52 h-52 rounded-lg overflow-hidden border-4 dark:border-orange-400 border-sm-D-blue-950">
+              <img src="/img/me.jpeg" alt="Photo" className="w-full h-full object-cover" />
             </div>
 
 
-            <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
-            <p className="text-center text-gray-300 mb-8">Feel free to reach out or download my CV below:</p>
             <a
-              href="/path-to-your-cv.pdf"
+              href="/HojadevidaSaraOjeda.pdf"
               download
-              className="bg-yellow-400 text-sm-bunker-950 px-6 py-3 rounded-full font-semibold text-lg hover:bg-yellow-500 transition duration-300">
-              Download CV
+              className="absolute -top-4 -right-4 bg-sm-D-blue-800 dark:bg-orange-400 text-sm-bunker-950 dark:text-orange-950 p-3 rounded-full shadow-lg dark:hover:bg-orange-500 transition duration-300"
+              aria-label="Download CV"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
+              </svg>
+            </a>
+          </div>
+
+
+          <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
+          <p className="text-center text-gray-300 dark:text-orange-700 mb-8">Social Networks</p>
+          <div className="flex space-x-4 mt-6">
+
+            <a
+              href="https://www.instagram.com/gh0st.mar_505/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-sm-D-blue-600 dark:hover:text-orange-400 transition duration-300"
+              aria-label="Instagram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                className="w-8 h-8"
+              >
+                <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.37 3.608 1.344.975.975 1.283 2.242 1.344 3.608.059 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.37 2.633-1.344 3.608-.975.975-2.242 1.283-3.608 1.344-1.265.059-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.37-3.608-1.344-.975-.975-1.283-2.242-1.344-3.608-.059-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.062-1.366.37-2.633 1.344-3.608C4.518 2.605 5.785 2.297 7.151 2.235c1.265-.058 1.645-.07 4.849-.07zM12 0C8.741 0 8.332.014 7.052.072 5.775.13 4.535.425 3.515 1.445 2.494 2.466 2.2 3.705 2.142 4.982.084 8.332.071 8.741.071 12c0 3.259.014 3.668.072 4.948.058 1.277.353 2.517 1.373 3.537 1.021 1.021 2.261 1.316 3.537 1.373C8.332 23.916 8.741 23.93 12 23.93c3.259 0 3.668-.014 4.948-.072 1.277-.058 2.517-.353 3.537-1.373 1.021-1.021 1.316-2.261 1.373-3.537.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.058-1.277-.353-2.517-1.373-3.537C19.465.425 18.225.13 16.948.072 15.668.014 15.259 0 12 0zm0 5.838a6.163 6.163 0 100 12.326 6.163 6.163 0 000-12.326zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.881 0 1.44 1.44 0 012.881 0z" />
+              </svg>
             </a>
 
 
-            <footer className="mt-16 w-full text-center py-4  text-gray-400">
-              Made with <span className="text-orange-300">&lt;3</span> by Sara
-            </footer>
-          </section>
+            <a
+              href="https://www.facebook.com/saramaria.ojeda"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-sm-D-blue-600 dark:hover:text-orange-400 transition duration-300"
+              aria-label="Facebook"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                className="w-8 h-8"
+              >
+                <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.462.099 2.794.143v3.24l-1.917.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+              </svg>
+            </a>
+          </div>
 
 
+
+
+          <footer className="mt-16 w-full text-center py-4 text-gray-400 dark:text-orange-950">
+            Made with <span className="text-orange-500 dark:text-sm-D-blue-700">&lt;3</span> by Sara
+          </footer>
         </section>
 
-      </section>
+
+      </dl>
+
+
+
+
 
 
 

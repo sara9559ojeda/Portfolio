@@ -15,8 +15,8 @@ const Page = () => {
     },
     {
       image: "/img/img2.png",
-      title: "Project 2",
-      description: "Description for Project 2.",
+      title: "Card",
+      description: "A card using Tailwind CSS.",
       link: "https://github.com/sara9559ojeda/card",
       logo: "/img/descarga.svg",
     
@@ -38,7 +38,7 @@ const Page = () => {
   };
 
   return (
-    <main className="flex flex-col items-center  justify-center min-h-screen py-8 bg-gradient-to-b from-[#000414] to-sm-D-blue-950 h-screen">
+    <main className="flex flex-col items-center  justify-center min-h-screen py-8 bg-gradient-to-b from-[#000414] to-sm-D-blue-950 dark:bg-orange-200 dark:bg-none dark:border-orange-950 h-screen">
       <h1 className="text-3xl font-bold mb-6 text-start md:pl-10 md:mr-auto">MY PROJECTS</h1>
       <div className="relative w-full max-w-3xl overflow-hidden">
         {/* Carrusel */}
@@ -53,7 +53,7 @@ const Page = () => {
             >
               <img src={project.image}
                 alt={project.title}
-                className="rounded-lg mb-7 mt-14 size-9 "/>
+                className="rounded-lg mb-7 mt-14  "/>
               <h2 className="text-xl font-semibold">{project.title}</h2>
               <p className="text-sm-D-blue-200 text-center">{project.description}</p>
               <dl className="flex space-x-6">
