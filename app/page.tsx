@@ -15,7 +15,6 @@ export default function Home() {
     <main className="text-blue-200 dark:text-orange-950 w-auto">
 
       <dl id="home" className="bg-[url('/img/bgimg.png')] dark:bg-gradient-to-b border-b border-sm-D-blue-950 dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen  ">
-
         <Navbar className="border-b border-sky-200 dark:border-orange-950">
           <NavbarBrand>
             <nav className="  ml-auto p-3 bg-opacity-10 flex flex-row text-sky-250 dark:text-orange-950 ">
@@ -118,82 +117,82 @@ export default function Home() {
 
       <section id="laboral" className=" bg-gradient-to-b from-sm-D-blue-950 to-[#000414] dark:bg-orange-300 dark:bg-none h-screen pt-28 border-t border-white border-opacity-25 border-b border-b-sm-bunker-950">
         <h1 className="text-3xl font-bold text-center pb-9 md:pl-10 md:text-start ">LABORAL EXPERIENCES</h1>
-        <div className="flex flex-col  space-y-3 w-[70%] md:w-[50%] mx-auto  bg-gray-950 bg-opacity-60 backdrop-blur rounded-2xl pl-24 p-8" >
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+        <dl className="flex flex-col  space-y-3 w-[70%] md:w-[50%] mx-auto  bg-gray-950 bg-opacity-60 backdrop-blur rounded-2xl pl-24 p-8" >
+          <dl className="relative">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gray-300"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></dl>
+            <dl className="ml-8">
               <h3 className="text-lg font-semibold">English teacher</h3>
               <p className="text-sm text-gray-600">2022</p>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+            </dl>
+          </dl>
+          <dl className="relative">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gray-300"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></dl>
+            <dl className="ml-8">
               <h3 className="text-lg font-semibold">Accounting assistant</h3>
               <p className="text-sm text-gray-600">2023</p>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="absolute left-2 top-0 w-px h-full bg-gray-300"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></div>
-            <div className="ml-8">
+            </dl>
+          </dl>
+          <dl className="relative">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gray-300"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full"></dl>
+            <dl className="ml-8">
               <h3 className="text-lg font-semibold">Waiter</h3>
               <p className="text-sm text-gray-600">2024</p>
-            </div>
-          </div>
-        </div>
+            </dl>
+          </dl>
+        </dl>
 
       </section>
       <section id="Academic" className="bg-[url('/img/bgimg3.png')] dark:bg-gradient-to-b dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen pt-28">
         <h1 className="text-3xl font-bold text-center pb-9 md:pl-10 md:text-start">ACADEMIC EXPERIENCES</h1>
-        <div className="flex flex-col space-y-4 w-[80%] md:w-[50%] mx-auto bg-gray-950 bg-opacity-60 backdrop-blur-lg rounded-2xl pl-24 p-8">
+        <dl className="flex flex-col space-y-4 w-[80%] md:w-[50%] mx-auto bg-gray-950 bg-opacity-60 backdrop-blur-lg rounded-2xl pl-24 p-8">
           
-          <div className="relative group">
-            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
-            <div className="ml-8 group-hover:text-white transition-all duration-300">
+          <dl className="relative group">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></dl>
+            <dl className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Start Electronics Technician</h3>
               <p className="text-sm text-gray-400">August 2021</p>
-            </div>
-          </div>
+            </dl>
+          </dl>
 
         
-          <div className="relative group">
-            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
-            <div className="ml-8 group-hover:text-white transition-all duration-300">
+          <dl className="relative group">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></dl>
+            <dl className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Graduated</h3>
               <p className="text-sm text-gray-400">2022</p>
-            </div>
-          </div>
+            </dl>
+          </dl>
 
-          <div className="relative group">
-            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
-            <div className="ml-8 group-hover:text-white transition-all duration-300">
+          <dl className="relative group">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></dl>
+            <dl className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">English Course</h3>
               <p className="text-sm text-gray-400">2022</p>
-            </div>
-          </div>
-          <div className="relative group">
-            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
-            <div className="ml-8 group-hover:text-white transition-all duration-300">
+            </dl>
+          </dl>
+          <dl className="relative group">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></dl>
+            <dl className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Software Engineering Career</h3>
               <p className="text-sm text-gray-400">2023</p>
-            </div>
-          </div>
-          <div className="relative group">
-            <div className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></div>
-            <div className="absolute left-0 top-0 w-3 h-3 bg-sm-D-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></div>
-            <div className="ml-8 group-hover:text-white transition-all duration-300">
+            </dl>
+          </dl>
+          <dl className="relative group">
+            <dl className="absolute left-2 top-0 w-px h-full bg-gradient-to-b from-blue-500 to-blue-700 transition-all duration-500 group-hover:bg-gradient-to-b group-hover:from-orange-500 group-hover:to-yellow-500"></dl>
+            <dl className="absolute left-0 top-0 w-3 h-3 bg-sm-D-blue-500 rounded-full group-hover:bg-orange-500 transition-all duration-300"></dl>
+            <dl className="ml-8 group-hover:text-white transition-all duration-300">
               <h3 className="text-lg font-semibold">Start Systems Technician</h3>
               <p className="text-sm text-gray-400">2024</p>
-            </div>
-          </div>
-        </div>
+            </dl>
+          </dl>
+        </dl>
       </section>
 
       <section id="myCourses" className="bg-[url('/img/bgimg2.png')] dark:bg-gradient-to-b dark:from-orange-100 dark:to-orange-700 bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center">
@@ -251,11 +250,11 @@ export default function Home() {
 
       <dl>
         <section id="contact" className="bg-gradient-to-b from-sm-bunker-950 to-sm-D-blue-950 dark:text-orange-950 dark:bg-orange-300 dark:bg-none  text-white  py-16 flex flex-col items-center">
-          <div className="relative mb-6">
+          <dl className="relative mb-6">
 
-            <div className="w-52 h-52 rounded-lg overflow-hidden border-4 dark:border-orange-400 border-sm-D-blue-950">
+            <dl className="w-52 h-52 rounded-lg overflow-hidden border-4 dark:border-orange-400 border-sm-D-blue-950">
               <img src="/img/me.jpeg" alt="Photo" className="w-full h-full object-cover" />
-            </div>
+            </dl>
 
 
             <a
@@ -268,12 +267,12 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
               </svg>
             </a>
-          </div>
+          </dl>
 
 
           <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
           <p className="text-center text-gray-300 dark:text-orange-700 mb-8">Social Networks</p>
-          <div className="flex space-x-4 mt-6">
+          <dl className="flex space-x-4 mt-6">
 
             <a
               href="https://www.instagram.com/gh0st.mar_505/"
@@ -309,7 +308,7 @@ export default function Home() {
                 <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.462.099 2.794.143v3.24l-1.917.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
               </svg>
             </a>
-          </div>
+          </dl>
 
 
 
